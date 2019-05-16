@@ -2,8 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   if num % 3 == 0
-    "Fizz"
+    puts "Fizz"
+  elsif num % 5 == 0
+    puts "Buzz"
   else
-    num
+    puts num
   end
 end
